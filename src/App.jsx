@@ -209,8 +209,8 @@ Role: 당신은 20년 차 '조직 심리학자'이자 '헤드헌터'입니다.
                 이력서 심층 분석
               </h2>
               
-              <div className="border-2 border-dashed border-slate-300 rounded-xl p-8 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all cursor-pointer relative group">
-                <input type="file" onChange={handleFileUpload} accept=".pdf,.txt,.jpg,.jpeg,.png" className="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
+              <label htmlFor="file-upload" className="border-2 border-dashed border-slate-300 rounded-xl p-8 text-center hover:border-indigo-500 hover:bg-indigo-50 transition-all cursor-pointer relative group block">
+                <input id="file-upload" type="file" onChange={handleFileUpload} accept=".pdf,.txt,.jpg,.jpeg,.png" className="hidden" />
                 <div className="group-hover:scale-105 transition-transform duration-200">
                   <Microscope className="w-12 h-12 text-slate-400 mx-auto mb-3 group-hover:text-indigo-500" />
                   <p className="font-semibold text-slate-700">이력서 파일 업로드</p>

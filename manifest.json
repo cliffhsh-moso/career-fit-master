@@ -1,0 +1,10 @@
+{
+  "name": "Career Fit Master Pro",
+  "short_name": "Career Fit",
+  "description": "AI 기반 이력서 분석",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": []
+}
